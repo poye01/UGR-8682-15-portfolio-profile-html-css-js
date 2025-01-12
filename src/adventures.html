@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <a href="#" class="logo">Portfolio</a>
+      <div id="menu_icon">
+        <img
+          src="./images/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </div>
       <nav id="nav-menu">
-        <a href="#Home">Home</a>
-        <a href="#About-me">About me</a>
-        <a href="#Adventures">Adventures</a>
-        <a href="#CV">CV</a>
-        <a href="#contact-me">Contact me</a>
+        <a href="./home.html">Home</a>
+        <a href="./about.html">About me</a>
+        <a href="./adventures.html">Adventures</a>
+        <a href="./CV.html">CV</a>
+        <a href="./contact me.html">Contact me</a>
       </nav>
     </header>
-     <section id="Adventures">
+    <section id="Adventures">
       <h1 class="Adventures-title">Adventures</h1>
-        <div>
+      <div>
+        <div class="places-visited">
           <article>
             <h2>Places Visited</h2>
-            <div class="grid">
-              <img src="images/image9.jpg" alt="Fasil Castle" >
-              <img src="images/image10.jpg" alt="Lake Tana" >
-              <img src="images/image11.jpg" alt="Royal archieve building" >
+            <div class="images">
+              <div class="grid">
+                <img
+                  class="container"
+                  src="images/image9.jpg"
+                  alt="Fasil Castle"
+                />
+                <img
+                  class="container"
+                  src="images/image10.jpg"
+                  alt="Lake Tana"
+                />
+                <img
+                  class="container royal"
+                  src="images/image11.jpg"
+                  alt="Royal archieve building"
+                />
+              </div>
+              <video
+                class="container video-c"
+                src="./videos/video3.mp4"
+                controls
+                width="600"
+              ></video>
             </div>
-            <video src="./videos/video3.mp4" controls width="600"></video>
             <p>
               I have had the pleasure of visiting some of Ethiopia’s most iconic
               locations. In Gondar, I explored the ancient castles that reflect
@@ -48,13 +75,14 @@
         <div>
           <article>
             <h2>Places to be visited</h2>
-
+<div class="images">
             <div class="grid">
-              <img src="images/image12.jpg" alt="Bale Mountain Park" >
-              <img src="images/image13.jpg" alt="Ras Teferi’s Castle" >
-              <img src="images/image14.jpg" alt="Semien Mountain Park" >
+              <img class="container" src="images/image12.jpg" alt="Bale Mountain Park" />
+              <img class="container" src="images/image13.jpg" alt="Ras Teferi’s Castle" />
+              <img class="container semien" src="images/image14.jpg" alt="Semien Mountain Park" />
             </div>
-            <video src="./videos/video4.mp4" controls width="600"></video>
+            <video class="container video-c" src="./videos/video4.mp4" controls width="600"></video>
+            </div>
             <p>
               There are several incredible destinations in Ethiopia that I’m
               eager to explore. Bale Mountain Park, with its rich wildlife and
@@ -74,24 +102,26 @@
             >
           </article>
         </div>
-      </section>
-      <footer>
-        <div>
-          <h3>Coded by Blen Berhanu</h3>
-        </div>
-        <div class="icons">
-          <a href="https://github.com/poye01"
-            ><img src="./images/github.png" alt="github-icon" width="20"
-          ></a>
-          <a href="https://www.instagram.com/_blenbg/"
-            ><img
-              src="./images/instagram.png"
-              alt="instagram-icon"
-              width="20" ></a
-          ><a href="https://www.linkedin.com/in/blen-berhanu-63a8b7320/"
-            ><img src="./images//linkedin.png" alt="linkedin-icon" width="20"
-          ></a>
-        </div>
-      </footer>
-      </body>
-      </html>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <h3>Coded by Blen Berhanu</h3>
+      </div>
+      <div class="icons">
+        <a href="https://github.com/poye01"
+          ><img src="./images/github.png" alt="github-icon" width="20"
+        /></a>
+        <a href="https://www.instagram.com/_blenbg/"
+          ><img
+            src="./images/instagram.png"
+            alt="instagram-icon"
+            width="20" /></a
+        ><a href="https://www.linkedin.com/in/blen-berhanu-63a8b7320/"
+          ><img src="./images//linkedin.png" alt="linkedin-icon" width="20"
+        /></a>
+      </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
